@@ -4,7 +4,7 @@
 // 12-> 2
 // 85 -> 8
 
-int N = new Random().Next(10, 99);
+int N = new Random().Next(10, 100);
 Console.WriteLine($"{N}");
 int C = N / 10;
 int D = C * 10;
