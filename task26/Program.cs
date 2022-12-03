@@ -3,7 +3,7 @@
 // 78 -> 2
 // 89126 -> 5
 
-Console.Write("Введите число любое число: ");
+Console.Write("Введите число любое положительное число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 int C = 0;
 for (int i = 1; i <= N; i = i * 10)
