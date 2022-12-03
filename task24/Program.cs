@@ -3,7 +3,7 @@
 // 4 -> 10
 // 8 -> 36
 
-Console.Write("Введите число любое число: ");
+Console.Write("Введите число любое положительное число: ");
 int A = Convert.ToInt32(Console.ReadLine());
 int Sum = 0;
 for (int i = 1; i <= A; i++)
