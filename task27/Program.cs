@@ -8,7 +8,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 int Sum = 0;
 for (int i = 0; i <= 10; i++)
 {
-    int U = N - N / 10 * 10;
+    int U = N % 10;
     N = N / 10;
     Sum = Sum + U;
 }
