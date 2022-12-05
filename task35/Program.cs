@@ -4,18 +4,18 @@
 // [1, 2, 3, 6, 2] -> 0
 // [10, 11, 12, 13, 14] -> 5
 
-
+int[] N = new int[123];
 int Sum = 0;
 int C = 1;
 for (int i = 0; i < 123; i++)
 {
-    int N = new Random().Next(0, 1000);
-    Console.Write($"{N} ");
+    N[i] = new Random().Next(0, 1000);
+    Console.Write($"{N[i]} ");
 
-    if (N > 10 && N < 99 )
+    if (N[i] > 10 && N[i] < 99)
     {
         Sum = Sum + C;
-            }
+    }
 }
 Console.WriteLine();
 Console.WriteLine($"Количество элементов массива, входящее в отрезок [10, 99] = {Sum}");
