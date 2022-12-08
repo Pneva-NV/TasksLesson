@@ -8,8 +8,7 @@ for (int i = 0; i < Ar.Length; i++)
 {
     Ar[i] = new Random().Next(0, 10);
     Console.Write($"{Ar[i]} ");
-    if (Ar[i] % 2 == 0) ;
-    else
+    if (i % 2 == 0)
     {
         C = C + Ar[i];
     }
